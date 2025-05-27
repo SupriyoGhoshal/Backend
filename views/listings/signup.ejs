@@ -1,0 +1,30 @@
+<% layout("/layouts/boilerplate") -%>
+
+<div class="signupacc">
+  <div class="signup">
+    <h3>Hey! Signup here</h3>
+    <form action="/signup" method="POST" novalidate class="needs-validation">
+      <div class="sign">
+        <label for="username">Username</label>
+        <input type="text" name="username" class="form-control" required>
+      </div>
+      <div class="sign">
+        <label for="email">Email</label>
+        <input type="email" name="email" class="form-control" required>
+      </div>
+      <div class="sign">
+        <label for="password">Password</label>
+        <input type="password" name="password" class="form-control" required>
+      </div>
+      <div class="sign">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" name="confirmPassword" class="form-control" required>
+      </div>
+      <div class="butt">Submit</div>
+      <div class="para">
+        <p>Already have an account?</p>
+        <a href="/login">Login</a>
+      </div>
+    </form>
+  </div>
+</div>

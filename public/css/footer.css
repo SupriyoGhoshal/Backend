@@ -1,0 +1,124 @@
+  /* Footer */
+  footer {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #f8fafc;
+    padding: 3rem 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .footer_container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .footer_logo a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  
+  .footer_logo img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: #38bdf8;
+  }
+  
+  .footer_logo h2 {
+    font-size: 1.5rem;
+    background: linear-gradient(90deg, #06b6d4, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .useful_links,
+  .contact_me,
+  .follow_me {
+    flex: 1;
+    min-width: 220px;
+  }
+  
+  footer h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #0ea5e9;
+    position: relative;
+  }
+  
+  footer h3::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 40px;
+    background: #0ea5e9;
+    margin-top: 6px;
+    border-radius: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: #cbd5e1;
+    font-size: 0.95rem;
+  }
+  
+  footer ul li a {
+    color: #cbd5e1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer ul li a:hover {
+    color: #0ea5e9;
+    text-decoration: underline;
+  }
+  
+  .follow_me ul {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .follow_me i {
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #94a3b8;
+    transition: 0.3s;
+  }
+  
+  .follow_me i:hover {
+    transform: scale(1.2) rotate(8deg);
+    color: #38bdf8;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer_container {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .footer_logo {
+      justify-content: center;
+    }
+  
+    .follow_me ul {
+      justify-content: center;
+    }
+  }

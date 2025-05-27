@@ -1,0 +1,114 @@
+/* Contact Section */
+
+.Contact {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    padding: 4rem 1.5rem;
+    color: #f1f5f9;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Section Title */
+  .contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #0ea5e9;
+    position: relative;
+  }
+  
+  .contact-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #0ea5e9;
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+  
+  /* Contact Form Container */
+  .section_contact {
+    width: 100%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Input Groups */
+  .input_section {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .input_section input,
+  .message_section textarea {
+    flex: 1;
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #e2e8f0;
+    transition: 0.3s ease;
+    width: 100%;
+  }
+  
+  /* Message box */
+  .message_section textarea {
+    width: 100%;
+    height: 300px;
+    resize: none;
+  }
+  
+  /* Focus/hover styles */
+  input:focus,
+  textarea:focus,
+  input:hover,
+  textarea:hover {
+    outline: none;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid #0ea5e9;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .input_section {
+      flex-direction: column;
+    }
+  
+    .message_section textarea {
+      height: 300px;
+    }
+  }
+  .send_button_container {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  
+  .send_button {
+    background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.8rem 2.2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(14, 165, 233, 0.4);
+    transition: all 0.3s ease;
+    font-weight: 600;
+  }
+  
+  .send_button:hover {
+    background: linear-gradient(135deg, #0ea5e9, #38bdf8);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(14, 165, 233, 0.6);
+  }
+  

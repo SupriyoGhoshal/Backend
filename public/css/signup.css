@@ -1,0 +1,95 @@
+/* signup.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .signupacc {
+    width: 100%;
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .signup {
+    text-align: center;
+  }
+  
+  .signup h3 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  .sign {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .sign label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .sign input.form-control {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .sign input.form-control:focus {
+    border-color: #007bff;
+  }
+  
+  .butt {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .butt:hover {
+    background-color: #0056b3;
+  }
+  
+  .para {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .para p {
+    margin: 0;
+  }
+  
+  .para a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .para a:hover {
+    text-decoration: underline;
+  }
+  
